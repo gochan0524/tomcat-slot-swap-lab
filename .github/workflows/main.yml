@@ -1,0 +1,5 @@
+- name: Debug - show files
+  run: |
+    pwd
+    ls -la
+    find . -maxdepth 3 -name pom.xml -print
