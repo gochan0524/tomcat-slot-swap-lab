@@ -34,6 +34,6 @@ jobs:
       - name: Deploy to Azure Web App (staging)
         uses: azure/webapps-deploy@v3
         with:
-          app-name: <YOUR_APP_SERVICE_NAME>
+          app-name: mytomcatswaplab
           slot-name: staging
           package: target/app.war
